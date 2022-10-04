@@ -1,0 +1,50 @@
+.padre {
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hijo:nth-child(1) {
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijo:nth-child(2) {
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijo:nth-child(3) {
+    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.hijo::before{
+    background-color: red;
+}
+.hijo::after{
+    background-color: green;
+}
+.A .B:
+{
+    background-color:red;
+}*/
