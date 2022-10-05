@@ -1,37 +1,42 @@
-h1{
+h1 {
     background-color: aqua;
-    color:black;
+    color: black;
     margin: 0px;
-    
+
 }
-.opciones{
+
+.opciones {
     background-color: rgb(148, 164, 218);
     color: rgb(43, 34, 11);
     margin: 1%;
     padding: 3%;
-    
+
 }
 
-.parte1{
+.parte1 {
     background-color: rgb(233, 143, 173);
     color: rgb(17, 132, 199);
-    border: 2px solid black ;
+    border: 2px solid black;
     margin: 1%;
     padding: 3%;
-    
+
 }
-.parte2{
+
+.parte2 {
     background-color: rgb(78, 77, 55);
     color: rgb(182, 38, 27);
     margin: 1%;
     padding: 3%;
-    
+
 }
-.conjunto{
-    background-color: crimson;
-    display: inline-flex;
-    flex-direction: column;
-    margin-top: 0px;
-    justify-content: center;
-    padding: 3%;
+
+@media (max-width: 800px) {
+    .conjunto {
+        background-color: crimson;
+        display: inline-flex;
+        margin-top: 0px;
+        justify-content: center;
+        padding: 3%;
+        flex-direction: column;
+    }
 }
