@@ -1,18 +1,26 @@
-<div class="container" style="margin-top: 100px;">
+<div class="container" style="margin-top: 100px">
     <div class="row">
         <form action="/admin/login" method="post">
             <div class="mb-3 row">
+                <label for="inputUser" class="col-sm-2 col-form-label">User</label>
                 <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputUser" placeholder="Usuario" name="usuario"/>
+                    <input type="text" class="form-control" id="inputUser" name="usuario" />
+                </div>
             </div>
-            </div>
-           <div class="mb-3 row">
+            <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
                 <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" name="password"/>
+                    <input type="password" class="form-control" id="inputPassword" name="password"/>
+                </div>
             </div>
-            <div>
+            <div class="d-grid col-4 mx-auto">
                 <button type="submit" class="btn btn-primary mb-3">Ingresar</button>
             </div>
+
+            {{#if error}}
+            <p> Usuario y/o contraseña incorrecto </p>
+            {{/if}}
+
         </form>
     </div>
 </div>

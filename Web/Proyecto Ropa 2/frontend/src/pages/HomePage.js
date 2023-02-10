@@ -10,7 +10,7 @@ function HomePage() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="img/home/02.jpg"
+          src="img/home/01.jpg"
           alt="First slide" />
         <Carousel.Caption>
           <h3>First slide label</h3>
